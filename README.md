@@ -1,3 +1,2 @@
-## Proyecto DataAnalytics Coderhouse
-## Año 2026 - Comision 101725
-## Jorge Martinez
+# Proyecto DataAnalytics Coderhouse
+ Jorge Martinez - Comision 101725 - Año 2026
