@@ -1,9 +1,6 @@
 # m4_consultas_negocio - Entrega Modulo 4 - Jorge Martinez
 Script SQL que contiene consultas a la base de datos ventas_Tech_Db
 
-## Notas
-- En lugar de fecha_venta, id_producto, id_cliente y precio_unitario se usaron los nombres fecha, productoID, clienteID, precio, tal como en M3.
-
 ## Contenido
 1. Consulta Resumen ejecutivo mensual, Total facturado, cantidad de pedidos y ticket promedio por mes.
 2. Consulta Ranking de productos, top 5 por total facturado
