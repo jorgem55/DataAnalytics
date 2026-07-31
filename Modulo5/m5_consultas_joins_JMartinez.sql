@@ -165,12 +165,18 @@ SELECT
     canalVenta,
     SUM(cantidad * precioUnitario) AS totalPorCanal
 FROM (
-    SELECT v.canal AS canalVenta, v.cantidad AS cantidad, p.precio AS precioUnitario
+    SELECT 
+		v.canal AS canalVenta, 
+		v.cantidad AS cantidad, 
+		p.precio AS precioUnitario
     FROM ventas v
     JOIN productos p ON v.id_producto = p.id_producto
     WHERE v.canal = 'Online'
     UNION ALL
-    SELECT v.canal AS canalVenta, v.cantidad AS cantidad, p.precio AS precioUnitario
+    SELECT 
+		v.canal AS canalVenta, 
+		v.cantidad AS cantidad, 
+		p.precio AS precioUnitario
     FROM ventas v
     JOIN productos p ON v.id_producto = p.id_producto
     WHERE v.canal = 'Presencial'
